@@ -1,16 +1,24 @@
 import xml.etree.ElementTree as etree
 import numpy as np
-
-tree = etree.parse('slide1.xml')
-root = tree.getroot()
-
+import sys
 #hardcoding the namespace
 p = "{http://schemas.openxmlformats.org/presentationml/2006/main}"
 a = "{http://schemas.openxmlformats.org/drawingml/2006/main}"
-#print p
+
+
+def getInput():
+	input_slide = raw_input("Enter XML filename: ");
+	if(input_slide.find('.xml')!=-1):
+		input_slide= input_slide[:input_slide.find('.xml')]
+	return input_slide
 
 ###SCALE FACTOR = 12700
 SCALE_FACTOR = 12700
+MAX_WEIGHT = 0
+
+input_slide=getInput()
+tree = etree.parse(input_slide+".xml")
+root = tree.getroot()
 
 spTree =tree.find('.//'+p+'spTree')
 
@@ -26,7 +34,8 @@ r=0;
 ##MATRIX && RECT/NODE MAP
 matrix = [[]]
 mapping = {}
-print
+print 'Running...'
+nodes_file = open("bxytext.txt","w")
 #SHAPES LIST
 for child in shape_list:
 	#non-visual properties
@@ -53,11 +62,12 @@ for child in shape_list:
 			full_text+="".join(elem.text)
 		#debugging purpose
 		#print "|"+'id:' +shape.get('id') + " | name:"+shape.get('name')+"| Rectangle:"+full_text + "| x_offset: " + x_offset + "| y_offset:" + y_offset + "| width:" + width + "| height:" + height
-
+		nodes_file.write(full_text + " " + x_offset + " " + y_offset + " " + width + " " + height)
+		nodes_file.write('\n')
 		i=i+1
 		#add to map and increment node counter
 		mapping[int(shape.get('id'))]=r
-		print "Node "+str(r)+ ":"+full_text
+		#print "Node "+str(r)+ ":"+full_text
 		r=r+1
 
 
@@ -73,9 +83,11 @@ for child in shape_list:
 		y_offset= xfrm.find(a+'off').attrib.get('y')
 		width= xfrm.find(a+'ext').attrib.get('cx')
 		height= xfrm.find(a+'ext').attrib.get('cy')
-		print 'id:' +shape.get('id') + " | name:"+shape.get('name')+ "| x_offset: " + x_offset + "| y_offset:" + y_offset + "| width:" + width + "| height:" + height
+		#print 'id:' +shape.get('id') + " | name:"+shape.get('name')+ "| x_offset: " + x_offset + "| y_offset:" + y_offset + "| width:" + width + "| height:" + height
 		i=i+1
 
+#close nodes_file		
+nodes_file.close()
 #initalize the matrix
 matrix = np.matrix([[0]*r]*r)
 
@@ -102,20 +114,19 @@ for child in cxn_list:
 		RGB="+"
 		positive=positive+1
 
-
 	#DEAFULT IS SCALE_FACTOR if not grab value
 	line_width = aln.get('w')
 	if(line_width==None):
 		line_width='12700'
 
-
+	if float(line_width)>MAX_WEIGHT:
+		MAX_WEIGHT=float(line_width)
 	cNvCxnSpPr = CxnSpPr.find(p+'cNvCxnSpPr')
 	start_Cxn = cNvCxnSpPr.find(a+'stCxn')
 	if(etree.iselement(start_Cxn)):
 		start_Cxn= start_Cxn.attrib.get('id')
 	else:
 		start_Cxn='0'
-
 
 	end_Cxn = cNvCxnSpPr.find(a+'endCxn')
 	if(etree.iselement(end_Cxn)):
@@ -139,20 +150,32 @@ for child in cxn_list:
 	matrix[end].put(start,(float(line_width)*1.0))
 	i=i+1
 
-print
-print "Objects: "+str(i)
-print "Nodes: "+str(r)
-print "Negative Connects: "+str(negative)
-print "Positive Connects: "+str(positive)
-
-print "Node Mapping to ID: "+str(sorted( ((v,k) for k,v in mapping.iteritems()), reverse=False))
-print "--------------------------"
-print "Directed In-Graph"
 matrix =np.multiply(1.0/SCALE_FACTOR,matrix)
 matrix =np.matrix(np.round(matrix,3))
-print matrix
-print "-------------------------"
-print "Directed Out-Graph(Transpose)"
 
-print matrix.getT()
-print
+output = open("connectionmatrix.txt","w")
+list = matrix.tolist()
+for i in range(r):
+	output.write((str(list[i])[1:-1]).replace(',',' '))
+	output.write('\n')
+output.close()
+
+#output.write(str(matrix.A))
+print 'Finished.'
+def debug():
+	print
+	print "Objects: "+str(i)
+	print "Nodes: "+str(r)
+	print "Negative Connects: "+str(negative)
+	print "Positive Connects: "+str(positive)
+	print "Node Mapping to ID: "+str(sorted( ((v,k) for k,v in mapping.iteritems()), reverse=False))
+	print "--------------------------"
+	print "Directed In-Graph"
+	print matrix
+	print "MAX_WEIGHT:"+str(MAX_WEIGHT)
+	print "-------------------------"
+	print "Directed Out-Graph(Transpose)"
+
+	print matrix.getT()
+	print
+#debug()
