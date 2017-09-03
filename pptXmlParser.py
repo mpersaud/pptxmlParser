@@ -11,6 +11,14 @@ def getInput():
 	if(input_slide.find('.xml')!=-1):
 		input_slide= input_slide[:input_slide.find('.xml')]
 	return input_slide
+def getOutputFile(i):
+	if(i==1):
+		input_slide = raw_input("Enter nodes output filename: ");
+	if (i==0):
+		input_slide = raw_input("Enter matrix output filename: ");
+	if(input_slide.find('.txt')!=-1):
+		input_slide= input_slide[:input_slide.find('.txt')]
+	return input_slide
 
 ###SCALE FACTOR = 12700
 SCALE_FACTOR = 12700
@@ -35,7 +43,7 @@ r=0;
 matrix = [[]]
 mapping = {}
 print 'Running...'
-nodes_file = open("bxytext.txt","w")
+nodes_file = open(getOutputFile(1)+".txt","w")
 #SHAPES LIST
 for child in shape_list:
 	#non-visual properties
@@ -86,7 +94,7 @@ for child in shape_list:
 		#print 'id:' +shape.get('id') + " | name:"+shape.get('name')+ "| x_offset: " + x_offset + "| y_offset:" + y_offset + "| width:" + width + "| height:" + height
 		i=i+1
 
-#close nodes_file		
+#close nodes_file
 nodes_file.close()
 #initalize the matrix
 matrix = np.matrix([[0]*r]*r)
@@ -106,8 +114,9 @@ for child in cxn_list:
 		aRGB = asolidFill.find(a+"srgbClr")
 		if(aRGB!=None):
 			RGB = aRGB.get('val')
-			RGB="-"
-			negative=negative+1
+			if(RGB=="FF0000"):
+				RGB="-"
+				negative=negative+1
 		else:
 			positive=positive+1
 	else:
@@ -140,6 +149,7 @@ for child in cxn_list:
 	height= xfrm.find(a+'ext').attrib.get('cy')
 	#print 'id:' +cNvPr.get('id') + "| Sign:"+RGB+"| name:"+cNvPr.get('name')+ "| x_offset: " + x_offset + "| y_offset:" + y_offset + "| width:" + width + "| height:" + height + "| Start Con:" + start_Cxn + "| End Con:" + end_Cxn +" | line_width: "+line_width
 	#change to mapping and input to matrix
+	i=i+1
 	if start_Cxn =='0' or end_Cxn =='0':
 		continue
 	start= mapping.get(int(start_Cxn))
@@ -147,13 +157,14 @@ for child in cxn_list:
 
 	if(RGB=='-'):
 		line_width=float(line_width)*-1.0
+
 	matrix[end].put(start,(float(line_width)*1.0))
-	i=i+1
+
 
 matrix =np.multiply(1.0/SCALE_FACTOR,matrix)
 matrix =np.matrix(np.round(matrix,3))
 
-output = open("connectionmatrix.txt","w")
+output = open(getOutputFile(0)+".txt","w")
 list = matrix.tolist()
 for i in range(r):
 	output.write((str(list[i])[1:-1]).replace(',',' '))
