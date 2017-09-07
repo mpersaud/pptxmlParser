@@ -11,7 +11,10 @@ def getInput():
 	if(input_slide.find('.xml')!=-1):
 		input_slide= input_slide[:input_slide.find('.xml')]
 	return input_slide
+<<<<<<< HEAD
 	
+=======
+>>>>>>> d476cd4370d026f042807f5050479adf1d5ddafb
 def getOutputFile(i):
 	if(i==1):
 		input_slide = raw_input("Enter nodes output filename: ");
