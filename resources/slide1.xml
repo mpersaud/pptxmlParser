@@ -1,0 +1,1608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:spTree>
+      <p:nvGrpSpPr>
+        <p:cNvPr id="1" name="" />
+        <p:cNvGrpSpPr />
+        <p:nvPr />
+      </p:nvGrpSpPr>
+      <p:grpSpPr>
+        <a:xfrm>
+          <a:off x="0" y="0" />
+          <a:ext cx="0" cy="0" />
+          <a:chOff x="0" y="0" />
+          <a:chExt cx="0" cy="0" />
+        </a:xfrm>
+      </p:grpSpPr>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="4" name="Rectangle 3" />
+          <p:cNvSpPr />
+          <p:nvPr />
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="5336433" y="2804085" />
+            <a:ext cx="1193851" cy="787578" />
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst />
+          </a:prstGeom>
+          <a:solidFill>
+            <a:schemeClr val="accent3">
+              <a:lumMod val="75000" />
+            </a:schemeClr>
+          </a:solidFill>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="3">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="lt1" />
+          </a:fontRef>
+        </p:style>
+        <p:txBody>
+          <a:bodyPr rtlCol="0" anchor="ctr" />
+          <a:lstStyle />
+          <a:p>
+            <a:pPr algn="ctr" />
+            <a:r>
+              <a:rPr lang="en-US" sz="1600" dirty="0">
+                <a:solidFill>
+                  <a:srgbClr val="1F497D" />
+                </a:solidFill>
+                <a:latin typeface="Calibri" />
+              </a:rPr>
+              <a:t>Positive Intergroup Reciprocity</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" sz="1600" dirty="0">
+              <a:solidFill>
+                <a:srgbClr val="1F497D" />
+              </a:solidFill>
+              <a:latin typeface="Calibri" />
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="5" name="Rectangle 4" />
+          <p:cNvSpPr />
+          <p:nvPr />
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="5336432" y="4193601" />
+            <a:ext cx="1197864" cy="795528" />
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst />
+          </a:prstGeom>
+          <a:solidFill>
+            <a:schemeClr val="accent2" />
+          </a:solidFill>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="3">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="lt1" />
+          </a:fontRef>
+        </p:style>
+        <p:txBody>
+          <a:bodyPr rtlCol="0" anchor="ctr" />
+          <a:lstStyle />
+          <a:p>
+            <a:pPr algn="ctr" />
+            <a:r>
+              <a:rPr lang="en-US" sz="1600" dirty="0">
+                <a:solidFill>
+                  <a:srgbClr val="1F497D" />
+                </a:solidFill>
+                <a:latin typeface="Calibri" />
+              </a:rPr>
+              <a:t>Negative Intergroup Reciprocity</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" sz="1600" dirty="0">
+              <a:solidFill>
+                <a:srgbClr val="1F497D" />
+              </a:solidFill>
+              <a:latin typeface="Calibri" />
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="12" name="Rectangle 11" />
+          <p:cNvSpPr />
+          <p:nvPr />
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="4711334" y="1617194" />
+            <a:ext cx="2524441" cy="467129" />
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst />
+          </a:prstGeom>
+          <a:solidFill>
+            <a:schemeClr val="accent3" />
+          </a:solidFill>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="3">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="lt1" />
+          </a:fontRef>
+        </p:style>
+        <p:txBody>
+          <a:bodyPr rtlCol="0" anchor="ctr" />
+          <a:lstStyle />
+          <a:p>
+            <a:pPr algn="ctr" />
+            <a:r>
+              <a:rPr lang="en-US" sz="1600" dirty="0" err="1">
+                <a:solidFill>
+                  <a:srgbClr val="1F497D" />
+                </a:solidFill>
+                <a:latin typeface="Calibri" />
+              </a:rPr>
+              <a:t>Promotive</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" sz="1600" dirty="0">
+                <a:solidFill>
+                  <a:srgbClr val="1F497D" />
+                </a:solidFill>
+                <a:latin typeface="Calibri" />
+              </a:rPr>
+              <a:t> Intergroup Structures and Processes</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="62" name="Rectangle 61" />
+          <p:cNvSpPr />
+          <p:nvPr />
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="4617916" y="5580114" />
+            <a:ext cx="2524441" cy="467129" />
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst />
+          </a:prstGeom>
+          <a:solidFill>
+            <a:schemeClr val="accent2">
+              <a:lumMod val="60000" />
+              <a:lumOff val="40000" />
+            </a:schemeClr>
+          </a:solidFill>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="3">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="lt1" />
+          </a:fontRef>
+        </p:style>
+        <p:txBody>
+          <a:bodyPr rtlCol="0" anchor="ctr" />
+          <a:lstStyle />
+          <a:p>
+            <a:pPr algn="ctr" />
+            <a:r>
+              <a:rPr lang="en-US" sz="1600" dirty="0" err="1">
+                <a:solidFill>
+                  <a:srgbClr val="1F497D" />
+                </a:solidFill>
+                <a:latin typeface="Calibri" />
+              </a:rPr>
+              <a:t>Contrient</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" sz="1600" dirty="0">
+                <a:solidFill>
+                  <a:srgbClr val="1F497D" />
+                </a:solidFill>
+                <a:latin typeface="Calibri" />
+              </a:rPr>
+              <a:t> Intergroup Structures and Processes</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="24" name="Rectangle 23" />
+          <p:cNvSpPr />
+          <p:nvPr />
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="7640521" y="2965130" />
+            <a:ext cx="2524441" cy="467129" />
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst />
+          </a:prstGeom>
+          <a:solidFill>
+            <a:srgbClr val="9BBB59" />
+          </a:solidFill>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="3">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="lt1" />
+          </a:fontRef>
+        </p:style>
+        <p:txBody>
+          <a:bodyPr rtlCol="0" anchor="ctr" />
+          <a:lstStyle />
+          <a:p>
+            <a:pPr algn="ctr" />
+            <a:r>
+              <a:rPr lang="en-US" sz="1600" dirty="0">
+                <a:solidFill>
+                  <a:srgbClr val="1F497D" />
+                </a:solidFill>
+                <a:latin typeface="Calibri" />
+              </a:rPr>
+              <a:t>Positive Intergroup </a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr algn="ctr" />
+            <a:r>
+              <a:rPr lang="en-US" sz="1600" dirty="0">
+                <a:solidFill>
+                  <a:srgbClr val="1F497D" />
+                </a:solidFill>
+                <a:latin typeface="Calibri" />
+              </a:rPr>
+              <a:t>Goals and Expectations</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="29" name="Rectangle 28" />
+          <p:cNvSpPr />
+          <p:nvPr />
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="7640521" y="4199234" />
+            <a:ext cx="2524441" cy="467129" />
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst />
+          </a:prstGeom>
+          <a:solidFill>
+            <a:schemeClr val="accent2">
+              <a:lumMod val="60000" />
+              <a:lumOff val="40000" />
+            </a:schemeClr>
+          </a:solidFill>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="3">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="lt1" />
+          </a:fontRef>
+        </p:style>
+        <p:txBody>
+          <a:bodyPr rtlCol="0" anchor="ctr" />
+          <a:lstStyle />
+          <a:p>
+            <a:pPr algn="ctr" />
+            <a:r>
+              <a:rPr lang="en-US" sz="1600" dirty="0">
+                <a:solidFill>
+                  <a:srgbClr val="1F497D" />
+                </a:solidFill>
+                <a:latin typeface="Calibri" />
+              </a:rPr>
+              <a:t>Negative Intergroup </a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr algn="ctr" />
+            <a:r>
+              <a:rPr lang="en-US" sz="1600" dirty="0">
+                <a:solidFill>
+                  <a:srgbClr val="1F497D" />
+                </a:solidFill>
+                <a:latin typeface="Calibri" />
+              </a:rPr>
+              <a:t>Goals and Expectations</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="44" name="Rectangle 43" />
+          <p:cNvSpPr />
+          <p:nvPr />
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="1640314" y="2936576" />
+            <a:ext cx="2524441" cy="467129" />
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst />
+          </a:prstGeom>
+          <a:solidFill>
+            <a:schemeClr val="accent3" />
+          </a:solidFill>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="3">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="lt1" />
+          </a:fontRef>
+        </p:style>
+        <p:txBody>
+          <a:bodyPr rtlCol="0" anchor="ctr" />
+          <a:lstStyle />
+          <a:p>
+            <a:pPr algn="ctr" />
+            <a:r>
+              <a:rPr lang="en-US" sz="1600" dirty="0">
+                <a:solidFill>
+                  <a:srgbClr val="1F497D" />
+                </a:solidFill>
+                <a:latin typeface="Calibri" />
+              </a:rPr>
+              <a:t>Positive Intergroup Historical Memory</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="49" name="Rectangle 48" />
+          <p:cNvSpPr />
+          <p:nvPr />
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="1646450" y="4199233" />
+            <a:ext cx="2524441" cy="467129" />
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst />
+          </a:prstGeom>
+          <a:solidFill>
+            <a:schemeClr val="accent2">
+              <a:lumMod val="60000" />
+              <a:lumOff val="40000" />
+            </a:schemeClr>
+          </a:solidFill>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="3">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="lt1" />
+          </a:fontRef>
+        </p:style>
+        <p:txBody>
+          <a:bodyPr rtlCol="0" anchor="ctr" />
+          <a:lstStyle />
+          <a:p>
+            <a:pPr algn="ctr" />
+            <a:r>
+              <a:rPr lang="en-US" sz="1600" dirty="0">
+                <a:solidFill>
+                  <a:srgbClr val="1F497D" />
+                </a:solidFill>
+                <a:latin typeface="Calibri" />
+              </a:rPr>
+              <a:t>Negative Intergroup Historical </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" sz="1600" dirty="0">
+                <a:solidFill>
+                  <a:srgbClr val="1F497D" />
+                </a:solidFill>
+                <a:latin typeface="Calibri" />
+              </a:rPr>
+              <a:t>Memory</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="68" name="Curved Connector 67" />
+          <p:cNvCxnSpPr>
+            <a:stCxn id="12" idx="3" />
+            <a:endCxn id="24" idx="0" />
+          </p:cNvCxnSpPr>
+          <p:nvPr />
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="7235774" y="1850757" />
+            <a:ext cx="1463040" cy="1097280" />
+          </a:xfrm>
+          <a:prstGeom prst="bentConnector2">
+            <a:avLst />
+          </a:prstGeom>
+          <a:ln>
+            <a:solidFill>
+              <a:srgbClr val="1F497D" />
+            </a:solidFill>
+            <a:tailEnd type="arrow" />
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1" />
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="72" name="Curved Connector 71" />
+          <p:cNvCxnSpPr>
+            <a:stCxn id="62" idx="2" />
+            <a:endCxn id="29" idx="3" />
+          </p:cNvCxnSpPr>
+          <p:nvPr />
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm rot="5400000" flipH="1" flipV="1">
+            <a:off x="7215326" y="3097608" />
+            <a:ext cx="1614444" cy="4284825" />
+          </a:xfrm>
+          <a:prstGeom prst="bentConnector4">
+            <a:avLst>
+              <a:gd name="adj1" fmla="val -14160" />
+              <a:gd name="adj2" fmla="val 109781" />
+            </a:avLst>
+          </a:prstGeom>
+          <a:ln w="76200" cmpd="sng">
+            <a:solidFill>
+              <a:schemeClr val="accent1" />
+            </a:solidFill>
+            <a:tailEnd type="arrow" />
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1" />
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="74" name="Curved Connector 73" />
+          <p:cNvCxnSpPr>
+            <a:stCxn id="29" idx="2" />
+            <a:endCxn id="62" idx="3" />
+          </p:cNvCxnSpPr>
+          <p:nvPr />
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm rot="5400000">
+            <a:off x="7439702" y="4300602" />
+            <a:ext cx="1097280" cy="1828800" />
+          </a:xfrm>
+          <a:prstGeom prst="bentConnector2">
+            <a:avLst />
+          </a:prstGeom>
+          <a:ln w="76200" cmpd="sng">
+            <a:solidFill>
+              <a:schemeClr val="accent1" />
+            </a:solidFill>
+            <a:tailEnd type="arrow" />
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1" />
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="9" name="Curved Connector 8" />
+          <p:cNvCxnSpPr>
+            <a:stCxn id="44" idx="0" />
+            <a:endCxn id="12" idx="1" />
+          </p:cNvCxnSpPr>
+          <p:nvPr />
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm rot="5400000" flipH="1" flipV="1">
+            <a:off x="3345466" y="1570707" />
+            <a:ext cx="1085817" cy="1645920" />
+          </a:xfrm>
+          <a:prstGeom prst="bentConnector2">
+            <a:avLst />
+          </a:prstGeom>
+          <a:ln w="21844">
+            <a:solidFill>
+              <a:srgbClr val="1F497D" />
+            </a:solidFill>
+            <a:tailEnd type="arrow" />
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1" />
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="84" name="Curved Connector 83" />
+          <p:cNvCxnSpPr>
+            <a:stCxn id="49" idx="2" />
+            <a:endCxn id="29" idx="3" />
+          </p:cNvCxnSpPr>
+          <p:nvPr />
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm rot="5400000" flipH="1" flipV="1">
+            <a:off x="6420034" y="921435" />
+            <a:ext cx="233563" cy="7256291" />
+          </a:xfrm>
+          <a:prstGeom prst="bentConnector4">
+            <a:avLst>
+              <a:gd name="adj1" fmla="val -806156" />
+              <a:gd name="adj2" fmla="val 103150" />
+            </a:avLst>
+          </a:prstGeom>
+          <a:ln>
+            <a:tailEnd type="triangle" />
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1" />
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="99" name="Curved Connector 98" />
+          <p:cNvCxnSpPr>
+            <a:stCxn id="62" idx="2" />
+            <a:endCxn id="49" idx="1" />
+          </p:cNvCxnSpPr>
+          <p:nvPr />
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm rot="5400000" flipH="1">
+            <a:off x="2956071" y="3123178" />
+            <a:ext cx="1614445" cy="4233687" />
+          </a:xfrm>
+          <a:prstGeom prst="bentConnector4">
+            <a:avLst>
+              <a:gd name="adj1" fmla="val -14160" />
+              <a:gd name="adj2" fmla="val 100871" />
+            </a:avLst>
+          </a:prstGeom>
+          <a:ln w="25400">
+            <a:tailEnd type="triangle" />
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1" />
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="66" name="Elbow Connector 65" />
+          <p:cNvCxnSpPr>
+            <a:stCxn id="49" idx="2" />
+            <a:endCxn id="62" idx="1" />
+          </p:cNvCxnSpPr>
+          <p:nvPr />
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm rot="16200000" flipH="1">
+            <a:off x="3189635" y="4385397" />
+            <a:ext cx="1147317" cy="1709245" />
+          </a:xfrm>
+          <a:prstGeom prst="bentConnector2">
+            <a:avLst />
+          </a:prstGeom>
+          <a:ln>
+            <a:tailEnd type="triangle" />
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1" />
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="79" name="Elbow Connector 78" />
+          <p:cNvCxnSpPr>
+            <a:stCxn id="5" idx="1" />
+            <a:endCxn id="49" idx="3" />
+          </p:cNvCxnSpPr>
+          <p:nvPr />
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm rot="10800000">
+            <a:off x="4147712" y="4591365" />
+            <a:ext cx="1188720" cy="0" />
+          </a:xfrm>
+          <a:prstGeom prst="bentConnector3">
+            <a:avLst />
+          </a:prstGeom>
+          <a:ln>
+            <a:tailEnd type="triangle" />
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1" />
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="86" name="Elbow Connector 85" />
+          <p:cNvCxnSpPr>
+            <a:stCxn id="49" idx="3" />
+            <a:endCxn id="5" idx="1" />
+          </p:cNvCxnSpPr>
+          <p:nvPr />
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="4170890" y="4432797" />
+            <a:ext cx="1165542" cy="0" />
+          </a:xfrm>
+          <a:prstGeom prst="bentConnector3">
+            <a:avLst>
+              <a:gd name="adj1" fmla="val 47295" />
+            </a:avLst>
+          </a:prstGeom>
+          <a:ln>
+            <a:tailEnd type="triangle" />
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1" />
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="91" name="Straight Arrow Connector 90" />
+          <p:cNvCxnSpPr>
+            <a:stCxn id="4" idx="3" />
+            <a:endCxn id="24" idx="1" />
+          </p:cNvCxnSpPr>
+          <p:nvPr />
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="6530284" y="3197874" />
+            <a:ext cx="1110237" cy="0" />
+          </a:xfrm>
+          <a:prstGeom prst="straightConnector1">
+            <a:avLst />
+          </a:prstGeom>
+          <a:ln>
+            <a:tailEnd type="triangle" />
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1" />
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="96" name="Straight Arrow Connector 95" />
+          <p:cNvCxnSpPr>
+            <a:stCxn id="24" idx="0" />
+            <a:endCxn id="4" idx="0" />
+          </p:cNvCxnSpPr>
+          <p:nvPr />
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm rot="16200000" flipV="1">
+            <a:off x="7087276" y="1650166" />
+            <a:ext cx="161044" cy="2468880" />
+          </a:xfrm>
+          <a:prstGeom prst="bentConnector3">
+            <a:avLst>
+              <a:gd name="adj1" fmla="val 170973" />
+            </a:avLst>
+          </a:prstGeom>
+          <a:ln w="53340">
+            <a:tailEnd type="triangle" />
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1" />
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="124" name="Straight Arrow Connector 123" />
+          <p:cNvCxnSpPr>
+            <a:stCxn id="4" idx="0" />
+            <a:endCxn id="44" idx="3" />
+          </p:cNvCxnSpPr>
+          <p:nvPr />
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm rot="16200000" flipH="1" flipV="1">
+            <a:off x="4866029" y="2102810" />
+            <a:ext cx="366055" cy="1768604" />
+          </a:xfrm>
+          <a:prstGeom prst="bentConnector4">
+            <a:avLst>
+              <a:gd name="adj1" fmla="val -122886" />
+              <a:gd name="adj2" fmla="val 76883" />
+            </a:avLst>
+          </a:prstGeom>
+          <a:ln>
+            <a:tailEnd type="triangle" />
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1" />
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="130" name="Curved Connector 129" />
+          <p:cNvCxnSpPr>
+            <a:stCxn id="44" idx="2" />
+            <a:endCxn id="4" idx="1" />
+          </p:cNvCxnSpPr>
+          <p:nvPr />
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm rot="5400000" flipH="1" flipV="1">
+            <a:off x="4016568" y="2083840" />
+            <a:ext cx="205830" cy="2433898" />
+          </a:xfrm>
+          <a:prstGeom prst="bentConnector4">
+            <a:avLst>
+              <a:gd name="adj1" fmla="val -224315" />
+              <a:gd name="adj2" fmla="val 75930" />
+            </a:avLst>
+          </a:prstGeom>
+          <a:ln w="36068">
+            <a:tailEnd type="triangle" />
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1" />
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="138" name="Elbow Connector 137" />
+          <p:cNvCxnSpPr>
+            <a:stCxn id="5" idx="3" />
+            <a:endCxn id="29" idx="1" />
+          </p:cNvCxnSpPr>
+          <p:nvPr />
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm flipV="1">
+            <a:off x="6534296" y="4432798" />
+            <a:ext cx="1106224" cy="365760" />
+          </a:xfrm>
+          <a:prstGeom prst="bentConnector3">
+            <a:avLst>
+              <a:gd name="adj1" fmla="val 31148" />
+            </a:avLst>
+          </a:prstGeom>
+          <a:ln>
+            <a:tailEnd type="triangle" />
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1" />
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="141" name="Elbow Connector 140" />
+          <p:cNvCxnSpPr>
+            <a:stCxn id="29" idx="1" />
+            <a:endCxn id="5" idx="3" />
+          </p:cNvCxnSpPr>
+          <p:nvPr />
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm rot="10800000" flipV="1">
+            <a:off x="6534296" y="4591363" />
+            <a:ext cx="1106224" cy="0" />
+          </a:xfrm>
+          <a:prstGeom prst="bentConnector3">
+            <a:avLst>
+              <a:gd name="adj1" fmla="val 13746" />
+            </a:avLst>
+          </a:prstGeom>
+          <a:ln>
+            <a:solidFill>
+              <a:schemeClr val="accent1" />
+            </a:solidFill>
+            <a:tailEnd type="triangle" />
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1" />
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="146" name="Elbow Connector 145" />
+          <p:cNvCxnSpPr>
+            <a:stCxn id="5" idx="2" />
+            <a:endCxn id="62" idx="0" />
+          </p:cNvCxnSpPr>
+          <p:nvPr />
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm rot="5400000">
+            <a:off x="5478164" y="5172009" />
+            <a:ext cx="640080" cy="274320" />
+          </a:xfrm>
+          <a:prstGeom prst="bentConnector3">
+            <a:avLst>
+              <a:gd name="adj1" fmla="val 69842" />
+            </a:avLst>
+          </a:prstGeom>
+          <a:ln>
+            <a:tailEnd type="triangle" />
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1" />
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="148" name="Straight Arrow Connector 147" />
+          <p:cNvCxnSpPr>
+            <a:stCxn id="62" idx="0" />
+            <a:endCxn id="5" idx="1" />
+          </p:cNvCxnSpPr>
+          <p:nvPr />
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm rot="16200000" flipV="1">
+            <a:off x="5199272" y="4894313" />
+            <a:ext cx="822960" cy="548640" />
+          </a:xfrm>
+          <a:prstGeom prst="bentConnector4">
+            <a:avLst>
+              <a:gd name="adj1" fmla="val 56100" />
+              <a:gd name="adj2" fmla="val 137623" />
+            </a:avLst>
+          </a:prstGeom>
+          <a:ln>
+            <a:tailEnd type="triangle" />
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1" />
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="150" name="Elbow Connector 149" />
+          <p:cNvCxnSpPr>
+            <a:stCxn id="4" idx="3" />
+            <a:endCxn id="5" idx="0" />
+          </p:cNvCxnSpPr>
+          <p:nvPr />
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm flipH="1">
+            <a:off x="5935365" y="3197875" />
+            <a:ext cx="594919" cy="995727" />
+          </a:xfrm>
+          <a:prstGeom prst="bentConnector4">
+            <a:avLst>
+              <a:gd name="adj1" fmla="val -7685" />
+              <a:gd name="adj2" fmla="val 57796" />
+            </a:avLst>
+          </a:prstGeom>
+          <a:ln>
+            <a:solidFill>
+              <a:srgbClr val="FF0000" />
+            </a:solidFill>
+            <a:tailEnd type="triangle" />
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1" />
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="154" name="Elbow Connector 153" />
+          <p:cNvCxnSpPr>
+            <a:stCxn id="5" idx="3" />
+            <a:endCxn id="4" idx="2" />
+          </p:cNvCxnSpPr>
+          <p:nvPr />
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm flipH="1" flipV="1">
+            <a:off x="5933358" y="3591663" />
+            <a:ext cx="548640" cy="914400" />
+          </a:xfrm>
+          <a:prstGeom prst="bentConnector4">
+            <a:avLst>
+              <a:gd name="adj1" fmla="val -26677" />
+              <a:gd name="adj2" fmla="val 89222" />
+            </a:avLst>
+          </a:prstGeom>
+          <a:ln w="50800">
+            <a:solidFill>
+              <a:srgbClr val="FF0000" />
+            </a:solidFill>
+            <a:tailEnd type="triangle" />
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1" />
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="174" name="Elbow Connector 173" />
+          <p:cNvCxnSpPr>
+            <a:stCxn id="24" idx="3" />
+            <a:endCxn id="29" idx="0" />
+          </p:cNvCxnSpPr>
+          <p:nvPr />
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm flipH="1">
+            <a:off x="8902741" y="3198695" />
+            <a:ext cx="1262220" cy="1000539" />
+          </a:xfrm>
+          <a:prstGeom prst="bentConnector4">
+            <a:avLst>
+              <a:gd name="adj1" fmla="val -18111" />
+              <a:gd name="adj2" fmla="val 61672" />
+            </a:avLst>
+          </a:prstGeom>
+          <a:ln w="6350">
+            <a:solidFill>
+              <a:srgbClr val="FF0000" />
+            </a:solidFill>
+            <a:tailEnd type="triangle" />
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1" />
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="176" name="Elbow Connector 175" />
+          <p:cNvCxnSpPr>
+            <a:stCxn id="29" idx="0" />
+            <a:endCxn id="24" idx="2" />
+          </p:cNvCxnSpPr>
+          <p:nvPr />
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm rot="5400000" flipH="1" flipV="1">
+            <a:off x="8297005" y="3593496" />
+            <a:ext cx="766975" cy="457200" />
+          </a:xfrm>
+          <a:prstGeom prst="bentConnector3">
+            <a:avLst>
+              <a:gd name="adj1" fmla="val 63460" />
+            </a:avLst>
+          </a:prstGeom>
+          <a:ln w="3175">
+            <a:solidFill>
+              <a:srgbClr val="FF0000" />
+            </a:solidFill>
+            <a:tailEnd type="triangle" />
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1" />
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="185" name="Elbow Connector 184" />
+          <p:cNvCxnSpPr>
+            <a:stCxn id="44" idx="1" />
+            <a:endCxn id="49" idx="0" />
+          </p:cNvCxnSpPr>
+          <p:nvPr />
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm rot="10800000" flipH="1" flipV="1">
+            <a:off x="1640313" y="3170140" />
+            <a:ext cx="1268357" cy="1029092" />
+          </a:xfrm>
+          <a:prstGeom prst="bentConnector4">
+            <a:avLst>
+              <a:gd name="adj1" fmla="val -1744" />
+              <a:gd name="adj2" fmla="val 72813" />
+            </a:avLst>
+          </a:prstGeom>
+          <a:ln>
+            <a:solidFill>
+              <a:srgbClr val="FF0000" />
+            </a:solidFill>
+            <a:tailEnd type="triangle" />
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1" />
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="188" name="Elbow Connector 187" />
+          <p:cNvCxnSpPr>
+            <a:stCxn id="49" idx="1" />
+            <a:endCxn id="44" idx="2" />
+          </p:cNvCxnSpPr>
+          <p:nvPr />
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm rot="10800000" flipH="1">
+            <a:off x="1646449" y="3403706" />
+            <a:ext cx="1256085" cy="1029093" />
+          </a:xfrm>
+          <a:prstGeom prst="bentConnector4">
+            <a:avLst>
+              <a:gd name="adj1" fmla="val -5283" />
+              <a:gd name="adj2" fmla="val 62781" />
+            </a:avLst>
+          </a:prstGeom>
+          <a:ln w="43180">
+            <a:solidFill>
+              <a:srgbClr val="FF0000" />
+            </a:solidFill>
+            <a:tailEnd type="triangle" />
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1" />
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="206" name="Elbow Connector 205" />
+          <p:cNvCxnSpPr>
+            <a:stCxn id="12" idx="0" />
+            <a:endCxn id="44" idx="0" />
+          </p:cNvCxnSpPr>
+          <p:nvPr />
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm rot="16200000" flipH="1" flipV="1">
+            <a:off x="3916415" y="603043" />
+            <a:ext cx="1319653" cy="3347412" />
+          </a:xfrm>
+          <a:prstGeom prst="bentConnector3">
+            <a:avLst>
+              <a:gd name="adj1" fmla="val -75624" />
+            </a:avLst>
+          </a:prstGeom>
+          <a:ln w="29209">
+            <a:tailEnd type="triangle" />
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1" />
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="202" name="Elbow Connector 201" />
+          <p:cNvCxnSpPr>
+            <a:stCxn id="12" idx="0" />
+            <a:endCxn id="24" idx="0" />
+          </p:cNvCxnSpPr>
+          <p:nvPr />
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm rot="16200000" flipH="1">
+            <a:off x="6899786" y="690961" />
+            <a:ext cx="1347936" cy="3200400" />
+          </a:xfrm>
+          <a:prstGeom prst="bentConnector3">
+            <a:avLst>
+              <a:gd name="adj1" fmla="val -45407" />
+            </a:avLst>
+          </a:prstGeom>
+          <a:ln w="88900">
+            <a:tailEnd type="triangle" />
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1" />
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="225" name="Elbow Connector 224" />
+          <p:cNvCxnSpPr>
+            <a:stCxn id="12" idx="3" />
+            <a:endCxn id="4" idx="0" />
+          </p:cNvCxnSpPr>
+          <p:nvPr />
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm flipH="1">
+            <a:off x="5933358" y="1850759" />
+            <a:ext cx="1302416" cy="953327" />
+          </a:xfrm>
+          <a:prstGeom prst="bentConnector4">
+            <a:avLst>
+              <a:gd name="adj1" fmla="val -8493" />
+              <a:gd name="adj2" fmla="val 69985" />
+            </a:avLst>
+          </a:prstGeom>
+          <a:ln>
+            <a:tailEnd type="triangle" />
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1" />
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="228" name="Elbow Connector 227" />
+          <p:cNvCxnSpPr>
+            <a:stCxn id="4" idx="1" />
+            <a:endCxn id="12" idx="2" />
+          </p:cNvCxnSpPr>
+          <p:nvPr />
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm rot="10800000" flipH="1">
+            <a:off x="5336432" y="2084322" />
+            <a:ext cx="637122" cy="1113552" />
+          </a:xfrm>
+          <a:prstGeom prst="bentConnector4">
+            <a:avLst>
+              <a:gd name="adj1" fmla="val -35880" />
+              <a:gd name="adj2" fmla="val 87549" />
+            </a:avLst>
+          </a:prstGeom>
+          <a:ln>
+            <a:tailEnd type="triangle" />
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1" />
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="198" name="Elbow Connector 197" />
+          <p:cNvCxnSpPr>
+            <a:stCxn id="44" idx="1" />
+            <a:endCxn id="24" idx="0" />
+          </p:cNvCxnSpPr>
+          <p:nvPr />
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm rot="10800000" flipH="1">
+            <a:off x="1640313" y="2965131" />
+            <a:ext cx="7262428" cy="205011" />
+          </a:xfrm>
+          <a:prstGeom prst="bentConnector4">
+            <a:avLst>
+              <a:gd name="adj1" fmla="val -525" />
+              <a:gd name="adj2" fmla="val 937835" />
+            </a:avLst>
+          </a:prstGeom>
+          <a:ln>
+            <a:tailEnd type="triangle" />
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1" />
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1" />
+          </a:fillRef>
+          <a:effectRef idx="1">
+            <a:schemeClr val="accent1" />
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1" />
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+    </p:spTree>
+    <p:extLst>
+      <p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+        <p14:creationId xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" val="424766091" />
+      </p:ext>
+    </p:extLst>
+  </p:cSld>
+  <p:clrMapOvr>
+    <a:masterClrMapping />
+  </p:clrMapOvr>
+  <mc:AlternateContent xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main">
+    <mc:Choice Requires="p14">
+      <p:transition p14:dur="0" />
+    </mc:Choice>
+    <mc:Fallback xmlns="">
+      <p:transition xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" />
+    </mc:Fallback>
+  </mc:AlternateContent>
+  <p:timing>
+    <p:tnLst>
+      <p:par>
+        <p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot" />
+      </p:par>
+    </p:tnLst>
+  </p:timing>
+</p:sld>
