@@ -127,7 +127,7 @@ for child in cxn_list:
 	#DEAFULT IS SCALE_FACTOR if not grab value
 	line_width = aln.get('w')
 	if(line_width==None):
-		line_width='12700'
+		line_width= float('12700')*2
 
 	if float(line_width)>MAX_WEIGHT:
 		MAX_WEIGHT=float(line_width)
