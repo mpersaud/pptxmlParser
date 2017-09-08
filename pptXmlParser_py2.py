@@ -71,7 +71,7 @@ for child in shape_list:
 			full_text+="".join(elem.text)
 		#debugging purpose
 		#print "|"+'id:' +shape.get('id') + " | name:"+shape.get('name')+"| Rectangle:"+full_text + "| x_offset: " + x_offset + "| y_offset:" + y_offset + "| width:" + width + "| height:" + height
-		nodes_file.write(full_text + " " + x_offset + " " + y_offset + " " + width + " " + height)
+		nodes_file.write(full_text.rstrip() + " " + x_offset + " " + y_offset + " " + width + " " + height)
 		nodes_file.write('\n')
 		i=i+1
 		#add to map and increment node counter
@@ -189,5 +189,5 @@ def debug():
 	print ("Directed Out-Graph(Transpose)")
 
 	print (matrix.getT())
-	print ()
-debug()
+	print
+#debug()
