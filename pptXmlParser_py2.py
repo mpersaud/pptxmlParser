@@ -7,16 +7,16 @@ a = "{http://schemas.openxmlformats.org/drawingml/2006/main}"
 
 
 def getInput():
-	input_slide = input("Enter XML filename: ");
+	input_slide = raw_input("Enter XML filename: ");
 	if(input_slide.find('.xml')!=-1):
 		input_slide= input_slide[:input_slide.find('.xml')]
 	return input_slide
 
 def getOutputFile(i):
 	if(i==1):
-		input_slide = input("Enter nodes output filename: ");
+		input_slide = raw_input("Enter nodes output filename: ");
 	if (i==0):
-		input_slide = input("Enter matrix output filename: ");
+		input_slide = raw_input("Enter matrix output filename: ");
 	if(input_slide.find('.txt')!=-1):
 		input_slide= input_slide[:input_slide.find('.txt')]
 	return input_slide
