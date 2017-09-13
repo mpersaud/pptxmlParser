@@ -70,8 +70,9 @@ for child in shape_list:
 			#print elem.text
 			full_text+="".join(elem.text)
 		#debugging purpose
+		identifier = str(r+1)
 		#print "|"+'id:' +shape.get('id') + " | name:"+shape.get('name')+"| Rectangle:"+full_text + "| x_offset: " + x_offset + "| y_offset:" + y_offset + "| width:" + width + "| height:" + height
-		nodes_file.write(full_text.rstrip() + " " + x_offset + " " + y_offset + " " + width + " " + height)
+		nodes_file.write(identifier+" " +full_text.rstrip() + "\t" + x_offset + "\t" + y_offset + "\t" + width + "\t" + height)
 		nodes_file.write('\n')
 		i=i+1
 		#add to map and increment node counter
