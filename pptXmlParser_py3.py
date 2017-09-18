@@ -24,6 +24,14 @@ def getOutputFile(i):
 ###SCALE FACTOR = 12700
 SCALE_FACTOR = 12700
 MAX_WEIGHT = 0
+accent1 ="4F81BD"
+accent2 ="C0504D"
+accent3 ="9BBB59"
+accent4 ="8064A2"
+accent5 ="4BACC6"
+accent6 ="F79646"
+
+
 
 input_slide=getInput()
 tree = etree.parse(input_slide+".xml")
@@ -77,7 +85,7 @@ for child in shape_list:
 		i=i+1
 		#add to map and increment node counter
 		mapping[int(shape.get('id'))]=r
-		#print "Node "+str(r)+ ":"+full_text
+		print ("Node "+str(r+1)+ ":"+full_text)
 		r=r+1
 
 
@@ -169,7 +177,7 @@ matrix =np.matrix(np.round(matrix,3))
 output = open(getOutputFile(0)+".txt","w")
 list = matrix.tolist()
 for i in range(r):
-	output.write((str(list[i])[1:-1]).replace(',',' '))
+	output.write((str(list[i])[1:-1]).replace(', ','\t'))
 	output.write('\n')
 output.close()
 
@@ -191,4 +199,4 @@ def debug():
 
 	print (matrix.getT())
 	print ()
-debug()
+#debug()
