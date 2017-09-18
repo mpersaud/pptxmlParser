@@ -61,7 +61,13 @@ for child in shape_list:
 	#PRINTS OUT RECTANGLES WITH ID AND NAME, OFFSET , WIDTH , HEIGHT
 	if child[1][1].attrib.get('prst') == "rect" or etree.iselement(spPr.find(a+"custGeom")) :
 
-
+		rectSolidFill= spPr.find(a+"solidFill")
+		rectColor = rectSolidFill.find(a+"schemeClr")
+		if(rectColor == None):
+			rectColor = rectSolidFill.find(a+"srgbClr").get('val')
+		else:
+			rectColor = rectSolidFill.find(a+"schemeClr").get('val')
+		#print (rectColor)
 		xfrm = spPr.find(a+"xfrm")
 
 		x_offset= xfrm.find(a+'off').attrib.get('x')
@@ -76,9 +82,12 @@ for child in shape_list:
 			#print elem.text
 			full_text+="".join(elem.text)
 		#debugging purpose
-		identifier = str(r+1)
 		#print "|"+'id:' +shape.get('id') + " | name:"+shape.get('name')+"| Rectangle:"+full_text + "| x_offset: " + x_offset + "| y_offset:" + y_offset + "| width:" + width + "| height:" + height
-		nodes_file.write(identifier+" " +full_text.rstrip() + "\t" + x_offset + "\t" + y_offset + "\t" + width + "\t" + height)
+		identifier = str(r+1)
+		color = "gray"
+		if(rectColor == "accent3" or rectColor=="9BBB59"):
+			color = "yellow"
+		nodes_file.write(identifier+" " +full_text.rstrip() + "\t" + color + "\t"+x_offset + "\t" + y_offset + "\t" + width + "\t" + height)
 		nodes_file.write('\n')
 		i=i+1
 		#add to map and increment node counter
