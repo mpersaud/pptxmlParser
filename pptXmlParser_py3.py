@@ -1,6 +1,5 @@
 import xml.etree.ElementTree as etree
 import numpy as np
-import sys
 #hardcoding the namespace
 p = "{http://schemas.openxmlformats.org/presentationml/2006/main}"
 a = "{http://schemas.openxmlformats.org/drawingml/2006/main}"
@@ -24,14 +23,13 @@ def getOutputFile(i):
 ###SCALE FACTOR = 12700
 SCALE_FACTOR = 12700
 MAX_WEIGHT = 0
+#DIFFERENT HARDSET VALUES FOR COLORS IN SCHEME
 accent1 ="4F81BD"
 accent2 ="C0504D"
 accent3 ="9BBB59"
 accent4 ="8064A2"
 accent5 ="4BACC6"
 accent6 ="F79646"
-
-
 
 input_slide=getInput()
 tree = etree.parse(input_slide+".xml")
@@ -42,11 +40,11 @@ spTree =tree.find('.//'+p+'spTree')
 shape_list = spTree.findall(p+'sp')
 cxn_list =  spTree.findall(p+'cxnSp')
 #debug purpose
-i = 0
+o = 0
 negative=0
 positive =0
 #counting nodes/rect
-r=0;
+nodeNum=0;
 
 ##MATRIX && RECT/NODE MAP
 matrix = [[]]
@@ -55,6 +53,7 @@ print ('Running...')
 nodes_file = open(getOutputFile(1)+".txt","w")
 #SHAPES LIST
 for child in shape_list:
+	o=o+1
 	#non-visual properties
 	shape = child.find('.//'+p+'cNvPr')
 	#shape properties
@@ -81,45 +80,28 @@ for child in shape_list:
 		textBody = child.find(''+p+'txBody')
 		t = textBody.findall('.//'+a+'t')
 		for elem in t:
-			#print elem.text
 			full_text+="".join(elem.text)
-		#debugging purpose
-		#print "|"+'id:' +shape.get('id') + " | name:"+shape.get('name')+"| Rectangle:"+full_text + "| x_offset: " + x_offset + "| y_offset:" + y_offset + "| width:" + width + "| height:" + height
-		identifier = str(r+1)
+
+		identifier = str(nodeNum+1)
 		color = "gray"
 		if(rectColor == "accent3" or rectColor=="9BBB59"):
 			color = "yellow"
 		nodes_file.write(identifier+" " +full_text.rstrip() + "\t" + color + "\t"+x_offset + "\t" + y_offset + "\t" + width + "\t" + height)
 		nodes_file.write('\n')
-		i=i+1
+
 		#add to map and increment node counter
-		mapping[int(shape.get('id'))]=r
+		mapping[int(shape.get('id'))]=nodeNum
 		#print ("Node "+str(r+1)+ ":"+full_text)
-		r=r+1
-
-
-
-	# NOT NEEDED ANYMORE
-	#ARROWS CURVED DOWN or CURVED LEFT or Plus and Minu with ID AND NAME , OFFSET , WIDTH , HEIGHT
-	if child[1][1].attrib.get('prst') == "curvedDownArrow" or child[1][1].attrib.get('prst') == "curvedLeftArrow" or child[1][1].attrib.get('prst') == "mathPlus" or child[1][1].attrib.get('prst') == "mathMinus":
-		#print child[1][1].attrib
-		spPr = child.find(''+p+"spPr")
-		xfrm = spPr.find(a+"xfrm")
-
-		x_offset= xfrm.find(a+'off').attrib.get('x')
-		y_offset= xfrm.find(a+'off').attrib.get('y')
-		width= xfrm.find(a+'ext').attrib.get('cx')
-		height= xfrm.find(a+'ext').attrib.get('cy')
-		#print 'id:' +shape.get('id') + " | name:"+shape.get('name')+ "| x_offset: " + x_offset + "| y_offset:" + y_offset + "| width:" + width + "| height:" + height
-		i=i+1
+		nodeNum=nodeNum+1
 
 #close nodes_file
 nodes_file.close()
 #initalize the matrix
-matrix = np.matrix([[0]*r]*r)
+matrix = np.matrix([[0]*nodeNum]*nodeNum)
 
 #CONNECTORS LIST consisting of connector shapes <cxnSp>
 for child in cxn_list:
+	o=o+1
 	CxnSpPr = child.find('.//'+p+'nvCxnSpPr')
 	cNvPr = CxnSpPr.find('.//'+p+'cNvPr')
 	spPr = child.find(''+p+"spPr")
@@ -166,9 +148,8 @@ for child in cxn_list:
 	y_offset= xfrm.find(a+'off').attrib.get('y')
 	width= xfrm.find(a+'ext').attrib.get('cx')
 	height= xfrm.find(a+'ext').attrib.get('cy')
-	#print 'id:' +cNvPr.get('id') + "| Sign:"+RGB+"| name:"+cNvPr.get('name')+ "| x_offset: " + x_offset + "| y_offset:" + y_offset + "| width:" + width + "| height:" + height + "| Start Con:" + start_Cxn + "| End Con:" + end_Cxn +" | line_width: "+line_width
 	#change to mapping and input to matrix
-	i=i+1
+
 	if start_Cxn =='0' or end_Cxn =='0':
 		continue
 	start= mapping.get(int(start_Cxn))
@@ -179,23 +160,22 @@ for child in cxn_list:
 
 	matrix[end].put(start,(float(line_width)*1.0))
 
-
 matrix =np.multiply(1.0/SCALE_FACTOR,matrix)
 matrix =np.matrix(np.round(matrix,3))
 
 output = open(getOutputFile(0)+".txt","w")
 list = matrix.tolist()
-for i in range(r):
+for i in range(nodeNum):
 	output.write((str(list[i])[1:-1]).replace(', ','\t'))
 	output.write('\n')
 output.close()
 
-#output.write(str(matrix.A))
+
 print ('Finished.')
 def debug():
 	print
-	print ("Objects: "+str(i))
-	print ("Nodes: "+str(r))
+	print ("Objects: "+ str(o))
+	print ("Nodes: "+str(nodeNum))
 	print ("Negative Connects: "+str(negative))
 	print ("Positive Connects: "+str(positive))
 	print ("Node Mapping to ID: "+str(sorted( ((v,k) for k,v in mapping.items()), reverse=False)))
@@ -208,4 +188,3 @@ def debug():
 
 	print (matrix.getT())
 	print ()
-#debug()
