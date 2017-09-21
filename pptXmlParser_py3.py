@@ -125,9 +125,20 @@ for child in cxn_list:
 		positive=positive+1
 
 	#DEAFULT IS SCALE_FACTOR if not grab value
+	## 3 defaulted values, 9525(0.75) , 25400(2), 38100(3)
 	line_width = aln.get('w')
 	if(line_width==None):
-		line_width= float('12700')*2
+		pStyle = child.find(p+"style")
+		lnRef = pStyle.find(a+"lnRef").get('idx')
+		#print (lnRef)
+		if(lnRef=='1'):
+			line_width= float('12700')*0.75
+		elif(lnRef=='2'):
+			line_width= float('12700')*2
+		elif(lnRef=='3'):
+			line_width= float('12700')*3
+
+
 
 	if float(line_width)>MAX_WEIGHT:
 		MAX_WEIGHT=float(line_width)
