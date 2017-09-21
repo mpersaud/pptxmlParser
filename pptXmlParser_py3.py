@@ -83,9 +83,9 @@ for child in shape_list:
 			full_text+="".join(elem.text)
 
 		identifier = str(nodeNum+1)
-		color = "gray"
-		if(rectColor == "accent3" or rectColor=="9BBB59"):
-			color = "yellow"
+		color = "yellow"
+		if(rectColor == "accent2" or rectColor=="C0504D"):
+			color = "gray"
 		nodes_file.write(identifier+" " +full_text.rstrip() + "\t" + color + "\t"+x_offset + "\t" + y_offset + "\t" + width + "\t" + height)
 		nodes_file.write('\n')
 
