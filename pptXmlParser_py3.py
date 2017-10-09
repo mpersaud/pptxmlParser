@@ -71,9 +71,7 @@ matrix = [[]]
 mapping = {}
 print('Running...')
 z = get_input_num()
-write_to_file(ic + z, z, 0.1)
-write_to_file(b + z, z, 0)
-write_to_file(m + z, z, -0.9)
+
 
 nodes_file = open(nodes_filename + z + ".txt", "w")
 
@@ -124,6 +122,9 @@ for child in shape_list:
 
 # close nodes_file
 nodes_file.close()
+write_to_file(ic + z, nodeNum, 0.1)
+write_to_file(b + z, nodeNum, 0)
+write_to_file(m + z, nodeNum, -0.9)
 # initialize the matrix
 matrix = np.matrix([[0] * nodeNum] * nodeNum)
 
