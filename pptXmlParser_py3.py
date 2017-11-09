@@ -28,10 +28,10 @@ def get_input_num():
     return input("Enter Z #: ")
 
 
-def write_to_file(filename, iterations , num):
-    file = open(filename+".txt", "w")
+def write_to_file(filename, iterations, num):
+    file = open(filename + ".txt", "w")
     for i in range(int(iterations)):
-        file.write(str(num)+'\n')
+        file.write(str(num) + '\n')
     file.close()
 
 
@@ -111,8 +111,9 @@ for child in shape_list:
         if rectColor == "accent2" or rectColor == "C0504D":
             color = "gray"
         nodes_file.write(
-           full_text.rstrip() + "\t" + color + "\t" + x_offset + "\t" + y_offset + "\t" + width + "\t" + height)
-        #nodes_file.write(identifier + "\t" + color + "\t" + x_offset + "\t" + y_offset + "\t" + width + "\t" + height)
+            full_text.rstrip() + "\t" + color + "\t" + x_offset + "\t" + y_offset + "\t" + width + "\t" + height)
+        # nodes_file.write(identifier + "\t" + color + "\t" +
+        #                 x_offset + "\t" + y_offset + "\t" + width + "\t" + height)
         nodes_file.write('\n')
 
         # add to map and increment node counter
@@ -169,7 +170,7 @@ for child in cxn_list:
 
     if float(line_width) > MAX_WEIGHT:
         MAX_WEIGHT = float(line_width)
-    print(line_width)
+    # print(line_width)
     cNvCxnSpPr = CxnSpPr.find(p + 'cNvCxnSpPr')
     start_Cxn = cNvCxnSpPr.find(a + 'stCxn')
     if etree.iselement(start_Cxn):
@@ -211,13 +212,15 @@ output.close()
 
 print('Finished.')
 
+
 def debug():
     print()
     print("Objects: " + str(o))
     print("Nodes: " + str(nodeNum))
     print("Negative Connects: " + str(negative))
     print("Positive Connects: " + str(positive))
-    print("Node Mapping to ID: " + str(sorted(((v, k) for k, v in mapping.items()), reverse=False)))
+    print("Node Mapping to ID: " + str(sorted(((v, k)
+                                               for k, v in mapping.items()), reverse=False)))
     print("--------------------------")
     print("Directed In-Graph")
     print(matrix)
@@ -227,4 +230,6 @@ def debug():
 
     print(matrix.getT())
     print()
-debug()
+
+
+# debug()
